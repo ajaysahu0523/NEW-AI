@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Premium JARVIS Dark Navy & Black Theme Palette for SUBH AI -->
+    <color name="subh_bg_primary">#040714</color>
+    <color name="subh_bg_secondary">#081029</color>
+    <color name="subh_surface_card">#0E1838</color>
+    <color name="subh_surface_elevated">#13224A</color>
+    <color name="subh_surface_input">#0C1530</color>
+
+    <color name="subh_text_primary">#F2F7FF</color>
+    <color name="subh_text_secondary">#9EB3DB</color>
+    <color name="subh_text_muted">#667DA8</color>
+
+    <color name="subh_accent_cyan">#00E5FF</color>
+    <color name="subh_accent_blue">#2979FF</color>
+    <color name="subh_accent_purple">#A855F7</color>
+    <color name="subh_border_glow">#1E4380</color>
+    <color name="subh_border_subtle">#162B54</color>
+
+    <color name="subh_bubble_assistant">#0F1B3D</color>
+    <color name="subh_bubble_user">#1B4DFF</color>
+    <color name="subh_bubble_user_text">#FFFFFF</color>
+    <color name="subh_bubble_system">#121D3A</color>
+
+    <color name="subh_status_listening">#00E5FF</color>
+    <color name="subh_status_thinking">#A855F7</color>
+    <color name="subh_status_speaking">#2979FF</color>
+    <color name="subh_status_error">#FF5263</color>
+    <color name="subh_status_success">#22C55E</color>
+
+    <color name="subh_splash_bg">#040714</color>
+</resources>

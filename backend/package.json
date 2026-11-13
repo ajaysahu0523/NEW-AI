@@ -1,0 +1,12 @@
+{
+  "name": "subh-ai-backend",
+  "version": "1.0.0",
+  "description": "Secure HTTPS proxy for SUBH AI Android assistant keeping GEMINI_API_KEY server-side.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

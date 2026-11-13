@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Clean Light Theme Palette for SUBH AI -->
+    <color name="subh_bg_primary">#F2F6FC</color>
+    <color name="subh_bg_secondary">#E6EEF9</color>
+    <color name="subh_surface_card">#FFFFFF</color>
+    <color name="subh_surface_elevated">#F8FAFF</color>
+    <color name="subh_surface_input">#FFFFFF</color>
+
+    <color name="subh_text_primary">#0B1530</color>
+    <color name="subh_text_secondary">#475A80</color>
+    <color name="subh_text_muted">#7084AA</color>
+
+    <color name="subh_accent_cyan">#0097B2</color>
+    <color name="subh_accent_blue">#1D5BFF</color>
+    <color name="subh_accent_purple">#7B2CBF</color>
+    <color name="subh_border_glow">#B8D0F5</color>
+    <color name="subh_border_subtle">#D8E4F8</color>
+
+    <color name="subh_bubble_assistant">#FFFFFF</color>
+    <color name="subh_bubble_user">#1D5BFF</color>
+    <color name="subh_bubble_user_text">#FFFFFF</color>
+    <color name="subh_bubble_system">#EAF1FF</color>
+
+    <color name="subh_status_listening">#00B4D8</color>
+    <color name="subh_status_thinking">#7B2CBF</color>
+    <color name="subh_status_speaking">#1D5BFF</color>
+    <color name="subh_status_error">#D93848</color>
+    <color name="subh_status_success">#0F9D58</color>
+
+    <color name="subh_splash_bg">#040714</color>
+</resources>

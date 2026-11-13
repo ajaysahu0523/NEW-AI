@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_dialog_voice_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/subh_accent_cyan"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_voice_speed"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_dialog_speed_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.94x"
+            android:textColor="@color/subh_accent_cyan"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_dialog_speed"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:max="120" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_voice_pitch"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_dialog_pitch_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.00"
+            android:textColor="@color/subh_accent_cyan"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_dialog_pitch"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:max="100" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_voice_volume"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_dialog_volume_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:textColor="@color/subh_accent_cyan"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seek_dialog_volume"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:max="100" />
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SUBH AI</string>
+    <string name="splash_subtitle">INTELLIGENT PERSONAL ASSISTANT</string>
+    <string name="splash_hindi_tag">नमस्ते • हिन्दी &amp; ENGLISH VOICE AI</string>
+
+    <string name="default_greeting">नमस्ते! आपका स्वागत है। मैं SUBH AI हूँ। बताइए, मैं आपकी क्या मदद कर सकती हूँ?</string>
+
+    <string name="state_idle">Standby • Tap mic to speak</string>
+    <string name="state_listening">Listening carefully…</string>
+    <string name="state_thinking">Thinking…</string>
+    <string name="state_speaking">Speaking… Tap orb to interrupt</string>
+    <string name="state_sleeping">Sleeping • Say "Hey SUBH" or tap mic</string>
+    <string name="state_wake_listening">Wake Mode Active • Say "Hey SUBH"</string>
+    <string name="state_confirming">Awaiting your confirmation…</string>
+
+    <string name="hint_type_message">Ask SUBH AI in Hindi, English, or Hinglish…</string>
+    <string name="cd_mic_button">Activate SUBH AI microphone</string>
+    <string name="cd_stop_speaking">Stop SUBH AI speaking</string>
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_settings">Open Settings</string>
+    <string name="cd_memories">Open Saved Memories</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_orb">SUBH AI interactive voice orb</string>
+    <string name="cd_replay_voice">Speak this response aloud</string>
+    <string name="cd_save_memory">Save response as memory</string>
+    <string name="cd_delete_memory">Delete memory</string>
+
+    <string name="quick_time">Time &amp; Date</string>
+    <string name="quick_calc">Calculate 18% of 2500</string>
+    <string name="quick_youtube">Open YouTube</string>
+    <string name="quick_camera">Open Camera</string>
+    <string name="quick_google">Search Google</string>
+
+    <string name="confirm_action_title">Confirmation Required</string>
+    <string name="confirm_yes">Yes, Proceed</string>
+    <string name="confirm_no">Cancel</string>
+
+    <string name="settings_title">SUBH AI Settings</string>
+    <string name="settings_voice_section">Female Voice &amp; Speech</string>
+    <string name="settings_language_label">Assistant Language</string>
+    <string name="settings_voice_label">Selected Female Voice</string>
+    <string name="settings_voice_speed">Voice Speed</string>
+    <string name="settings_voice_pitch">Voice Pitch</string>
+    <string name="settings_voice_volume">Voice Volume</string>
+    <string name="settings_test_voice">Test Female Voice</string>
+    <string name="settings_tts_system">Download / Manage System Voices</string>
+
+    <string name="settings_assistant_section">Conversation &amp; Wake Word</string>
+    <string name="settings_conversation_mode">Continuous Two-Way Conversation</string>
+    <string name="settings_conversation_desc">Automatically listen for follow-up questions after SUBH finishes speaking</string>
+    <string name="settings_wake_word">Wake Phrase ("Hey SUBH")</string>
+    <string name="settings_wake_word_desc">Listen for "Hey SUBH" while the app is open on screen. Android blocks third-party background mic access when screen is off or app is closed.</string>
+
+    <string name="settings_memory_section">Memory &amp; Appearance</string>
+    <string name="settings_memory_enabled">Memory System ON/OFF</string>
+    <string name="settings_memory_desc">Remember approved preferences and conversation context locally on device</string>
+    <string name="settings_dark_theme">JARVIS Dark Navy Theme</string>
+    <string name="settings_dark_theme_desc">Turn off for clean Light theme</string>
+
+    <string name="settings_backend_section">Secure Gemini AI Backend</string>
+    <string name="settings_backend_desc">Connect your secure HTTPS backend proxy URL so private Gemini API keys never live inside the APK.</string>
+    <string name="settings_backend_hint">https://your-subh-backend.example.com/api/chat</string>
+    <string name="settings_save_backend">Save Backend URL</string>
+    <string name="settings_test_backend">Test Backend</string>
+
+    <string name="settings_privacy_section">Privacy &amp; Data Control</string>
+    <string name="settings_view_memories">View Saved Memories</string>
+    <string name="settings_clear_chat">Clear Chat History</string>
+    <string name="settings_reset_all">Reset All Local Data</string>
+
+    <string name="memory_title">Saved Memories</string>
+    <string name="memory_empty">No saved memories yet. Tell SUBH "Remember that…" or tap the bookmark icon on a message.</string>
+    <string name="memory_add">Add Memory</string>
+    <string name="memory_clear_all">Clear All</string>
+
+    <string name="mic_permission_rationale">SUBH AI needs microphone permission to listen to your voice in Hindi and English. Please allow microphone access.</string>
+    <string name="mic_permission_denied">Microphone permission is denied. Voice input cannot work until you allow Microphone in App Settings, though you can still type messages.</string>
+</resources>

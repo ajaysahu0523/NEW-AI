@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SubhAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/subh_accent_blue</item>
+        <item name="colorOnPrimary">@color/subh_bubble_user_text</item>
+        <item name="colorSecondary">@color/subh_accent_cyan</item>
+        <item name="colorTertiary">@color/subh_accent_purple</item>
+        <item name="android:colorBackground">@color/subh_bg_primary</item>
+        <item name="colorSurface">@color/subh_surface_card</item>
+        <item name="colorOnSurface">@color/subh_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/subh_text_secondary</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.SubhAI.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/subh_splash_bg</item>
+        <item name="android:statusBarColor">@color/subh_splash_bg</item>
+        <item name="android:navigationBarColor">@color/subh_splash_bg</item>
+    </style>
+</resources>

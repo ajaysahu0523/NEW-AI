@@ -1,0 +1,6 @@
+{
+  "name": "SUBH AI",
+  "description": "JARVIS-style bilingual Hindi and English voice-first personal AI assistant built with Java and XML.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

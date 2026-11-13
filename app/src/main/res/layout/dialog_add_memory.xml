@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_memory_fact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e.g., My name is Aarav, I prefer Hindi answers"
+        android:inputType="textCapSentences|textMultiLine"
+        android:minHeight="48dp" />
+</LinearLayout>
